@@ -428,8 +428,8 @@ Big interaction/architecture update:
   former "expression" (connect, notification, alarm, find-phone, nav,
   petting, ...) now uses an existing screen, a mood show, or a sound
   instead of a vector expression.
-- **Buttons renamed and reassigned**: OK (GPIO4) / PLUS (GPIO6) / MINUS
-  (GPIO7), matching the physical layout. MINUS gained a "previous screen"
+- **Buttons renamed and reassigned**: OK (GPIO7) / PLUS (GPIO6) / MINUS
+  (GPIO4), matching the physical layout. MINUS gained a "previous screen"
   short-press and a "quick clock" long-press; PLUS long-press still opens
   the menu.
 - **The clock replaces the old static sleep logo** - a live HH:MM with
