@@ -5,6 +5,7 @@
 #include <ChronosESP32.h>
 #include <Preferences.h>
 #include "buzzer_engine.h"
+#include "dirgamochi_config.h"
 
 enum MenuItem
 {
