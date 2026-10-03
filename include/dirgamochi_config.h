@@ -56,9 +56,9 @@
 // GPIO7 = bottom-left. Named for what they DO (OK confirms/selects,
 // PLUS/MINUS navigate), not the generic smartwatch TALK/NEXT/MODE names
 // earlier revisions used.
-#define BTN_OK_PIN 4
+#define BTN_MINUS_PIN 4
 #define BTN_PLUS_PIN 6
-#define BTN_MINUS_PIN 7
+#define BTN_OK_PIN 7
 
 #define BTN_DEBOUNCE_MS 40
 #define BTN_LONGPRESS_MS 600
