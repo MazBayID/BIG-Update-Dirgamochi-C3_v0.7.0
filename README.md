@@ -20,7 +20,7 @@ audio side is tuned.
 | SSD1306 128x64 OLED | I2C | SDA=GPIO21, SCL=GPIO20 (addr `0x3C`) |
 | INMP441 mic | I2S in | SCK=GPIO1, WS=GPIO2, SD=GPIO10 |
 | MAX98357A amp | I2S out | BCLK=GPIO1, LRC=GPIO2, DIN=GPIO5 |
-| TTP223 touch ×3 | digital | OK=GPIO4, PLUS=GPIO6, MINUS=GPIO7 |
+| TTP223 touch ×3 | digital | OK=GPIO7, PLUS=GPIO6, MINUS=GPIO4 |
 | Passive piezo buzzer *(optional)* | PWM (ledc) | GPIO3, off by default — see below |
 
 All pins are centralized in [`include/dirgamochi_config.h`](include/dirgamochi_config.h) —
