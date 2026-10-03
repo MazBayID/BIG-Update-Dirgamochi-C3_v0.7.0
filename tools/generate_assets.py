@@ -41,6 +41,11 @@ import zipfile
 import io
 import struct
 
+try:
+    __file__
+except NameError:
+    __file__ = "tools/generate_assets.py"
+
 # ---------------------------------------------------------------------------
 # Detect whether we're running as a PlatformIO extra_script (SCons injects an
 # `env` global and an `Import` builtin) or as a plain standalone script.
