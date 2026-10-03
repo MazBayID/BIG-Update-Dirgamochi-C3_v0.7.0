@@ -71,7 +71,7 @@ jobs:
       - name: Upload firmware artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: dirgamochi-c3-firmware
+          name: dirgamochi-big-update-v070
           path: dist/*.bin
           if-no-files-found: error
 
