@@ -39,13 +39,13 @@ change them there, not in the source files.
 Physical layout as built: GPIO4 = top-left, GPIO6 = top-right, GPIO7 =
 bottom-left. Named for what they do, not generic smartwatch labels:
 
-- **OK** (GPIO4) — short press: jump straight to the phone/status screen
+- **OK** (GPIO7) — short press: jump straight to the phone/status screen
   (or, on the QR/Contacts screens, cycle to the next entry). Long press:
   **Find Phone** (rings the connected phone; shows "Finding Phone...").
 - **PLUS** (GPIO6) — short press: next screen (FACE → TIME → WEATHER →
   NOTIFICATIONS → NAVIGATION → MUSIC → PHONE → CONTACTS → QR → FACE).
   Long press: **open the settings menu**.
-- **MINUS** (GPIO7) — short press: previous screen (same list, reverse).
+- **MINUS** (GPIO4) — short press: previous screen (same list, reverse).
   Long press: jump straight to the **clock**.
 
 Inside the **settings menu**: PLUS/MINUS move the selection up/down, OK
